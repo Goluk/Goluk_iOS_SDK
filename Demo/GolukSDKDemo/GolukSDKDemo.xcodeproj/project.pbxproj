@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040C21091CFD75BC002C0A31 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040C21081CFD75BC002C0A31 /* SystemConfiguration.framework */; };
+		040C210B1CFD75C7002C0A31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040C210A1CFD75C7002C0A31 /* Foundation.framework */; };
+		040C210D1CFD75CF002C0A31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040C210C1CFD75CF002C0A31 /* CoreGraphics.framework */; };
+		040C210F1CFD75D8002C0A31 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040C210E1CFD75D8002C0A31 /* OpenGLES.framework */; };
+		040C21111CFD75F4002C0A31 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 040C21101CFD75F4002C0A31 /* libiconv.tbd */; };
+		040C211B1CFD7698002C0A31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040C211A1CFD7698002C0A31 /* UIKit.framework */; };
+		040C211D1CFD76A3002C0A31 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040C211C1CFD76A3002C0A31 /* QuartzCore.framework */; };
+		1812DBA71D00015E006E6951 /* RoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812DBA41D00015E006E6951 /* RoundButton.m */; };
+		1812DBA81D00015E006E6951 /* VideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812DBA61D00015E006E6951 /* VideoTableViewCell.m */; };
+		186CBA271CFD3C7E002124BC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 186CBA261CFD3C7E002124BC /* libz.tbd */; };
+		186CBA291CFD3C84002124BC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 186CBA281CFD3C84002124BC /* libsqlite3.tbd */; };
+		18B97A6F1CFEB25700992E06 /* DashcamVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B97A6E1CFEB25700992E06 /* DashcamVideoViewController.m */; };
+		18B97A751CFEBA4600992E06 /* DashcamVideoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B97A741CFEBA4600992E06 /* DashcamVideoDetailViewController.m */; };
+		18B97A7A1CFFE62A00992E06 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 040C21121CFD7602002C0A31 /* libbz2.tbd */; };
+		18BDF81C1CFD62D30094AB2E /* GolukSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BDF8171CFD62D30094AB2E /* GolukSDK.framework */; };
+		18BDF83A1CFD80320094AB2E /* DashcamSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BDF8391CFD80320094AB2E /* DashcamSettingsViewController.m */; };
+		18BDF84C1CFD96FB0094AB2E /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BDF8431CFD96FB0094AB2E /* SVIndefiniteAnimatedView.m */; };
+		18BDF84D1CFD96FB0094AB2E /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BDF8451CFD96FB0094AB2E /* SVProgressAnimatedView.m */; };
+		18BDF84E1CFD96FB0094AB2E /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18BDF8471CFD96FB0094AB2E /* SVProgressHUD.bundle */; };
+		18BDF84F1CFD96FB0094AB2E /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BDF8491CFD96FB0094AB2E /* SVProgressHUD.m */; };
+		18BDF8501CFD96FB0094AB2E /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BDF84B1CFD96FB0094AB2E /* SVRadialGradientLayer.m */; };
+		18CCF8CB1CF7F5450092FBD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCF8CA1CF7F5450092FBD4 /* main.m */; };
+		18CCF8CE1CF7F5450092FBD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCF8CD1CF7F5450092FBD4 /* AppDelegate.m */; };
+		18CCF8D11CF7F5450092FBD4 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18CCF8D01CF7F5450092FBD4 /* ViewController.mm */; };
+		18CCF8D41CF7F5450092FBD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CCF8D21CF7F5450092FBD4 /* Main.storyboard */; };
+		18CCF8D61CF7F5450092FBD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CCF8D51CF7F5450092FBD4 /* Assets.xcassets */; };
+		18CCF8D91CF7F5450092FBD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CCF8D71CF7F5450092FBD4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040C21081CFD75BC002C0A31 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		040C210A1CFD75C7002C0A31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		040C210C1CFD75CF002C0A31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		040C210E1CFD75D8002C0A31 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		040C21101CFD75F4002C0A31 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		040C21121CFD7602002C0A31 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		040C21141CFD7609002C0A31 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		040C21161CFD7612002C0A31 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		040C21181CFD7620002C0A31 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		040C211A1CFD7698002C0A31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		040C211C1CFD76A3002C0A31 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1812DBA31D00015E006E6951 /* RoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundButton.h; sourceTree = "<group>"; };
+		1812DBA41D00015E006E6951 /* RoundButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundButton.m; sourceTree = "<group>"; };
+		1812DBA51D00015E006E6951 /* VideoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTableViewCell.h; sourceTree = "<group>"; };
+		1812DBA61D00015E006E6951 /* VideoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTableViewCell.m; sourceTree = "<group>"; };
+		186CBA261CFD3C7E002124BC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		186CBA281CFD3C84002124BC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		18B97A6D1CFEB25700992E06 /* DashcamVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashcamVideoViewController.h; sourceTree = "<group>"; };
+		18B97A6E1CFEB25700992E06 /* DashcamVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashcamVideoViewController.m; sourceTree = "<group>"; };
+		18B97A731CFEBA4600992E06 /* DashcamVideoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashcamVideoDetailViewController.h; sourceTree = "<group>"; };
+		18B97A741CFEBA4600992E06 /* DashcamVideoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashcamVideoDetailViewController.m; sourceTree = "<group>"; };
+		18BDF8171CFD62D30094AB2E /* GolukSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GolukSDK.framework; sourceTree = "<group>"; };
+		18BDF8381CFD80320094AB2E /* DashcamSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashcamSettingsViewController.h; sourceTree = "<group>"; };
+		18BDF8391CFD80320094AB2E /* DashcamSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashcamSettingsViewController.m; sourceTree = "<group>"; };
+		18BDF8421CFD96FB0094AB2E /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		18BDF8431CFD96FB0094AB2E /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		18BDF8441CFD96FB0094AB2E /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		18BDF8451CFD96FB0094AB2E /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		18BDF8461CFD96FB0094AB2E /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		18BDF8471CFD96FB0094AB2E /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		18BDF8481CFD96FB0094AB2E /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		18BDF8491CFD96FB0094AB2E /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		18BDF84A1CFD96FB0094AB2E /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		18BDF84B1CFD96FB0094AB2E /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		18CCF8C61CF7F5450092FBD4 /* GolukSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolukSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CCF8CA1CF7F5450092FBD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18CCF8CC1CF7F5450092FBD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18CCF8CD1CF7F5450092FBD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18CCF8CF1CF7F5450092FBD4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18CCF8D01CF7F5450092FBD4 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		18CCF8D31CF7F5450092FBD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18CCF8D51CF7F5450092FBD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18CCF8D81CF7F5450092FBD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18CCF8DA1CF7F5450092FBD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CCF8C31CF7F5450092FBD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040C211D1CFD76A3002C0A31 /* QuartzCore.framework in Frameworks */,
+				040C211B1CFD7698002C0A31 /* UIKit.framework in Frameworks */,
+				18B97A7A1CFFE62A00992E06 /* libbz2.tbd in Frameworks */,
+				040C21111CFD75F4002C0A31 /* libiconv.tbd in Frameworks */,
+				040C210F1CFD75D8002C0A31 /* OpenGLES.framework in Frameworks */,
+				040C210D1CFD75CF002C0A31 /* CoreGraphics.framework in Frameworks */,
+				040C210B1CFD75C7002C0A31 /* Foundation.framework in Frameworks */,
+				040C21091CFD75BC002C0A31 /* SystemConfiguration.framework in Frameworks */,
+				186CBA291CFD3C84002124BC /* libsqlite3.tbd in Frameworks */,
+				186CBA271CFD3C7E002124BC /* libz.tbd in Frameworks */,
+				18BDF81C1CFD62D30094AB2E /* GolukSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040C211E1CFD76F3002C0A31 /* System Framework */ = {
+			isa = PBXGroup;
+			children = (
+				040C211C1CFD76A3002C0A31 /* QuartzCore.framework */,
+				040C211A1CFD7698002C0A31 /* UIKit.framework */,
+				040C21181CFD7620002C0A31 /* AudioToolbox.framework */,
+				040C21161CFD7612002C0A31 /* MediaPlayer.framework */,
+				040C21141CFD7609002C0A31 /* AVFoundation.framework */,
+				040C21121CFD7602002C0A31 /* libbz2.tbd */,
+				040C21101CFD75F4002C0A31 /* libiconv.tbd */,
+				040C210E1CFD75D8002C0A31 /* OpenGLES.framework */,
+				040C210C1CFD75CF002C0A31 /* CoreGraphics.framework */,
+				040C210A1CFD75C7002C0A31 /* Foundation.framework */,
+				040C21081CFD75BC002C0A31 /* SystemConfiguration.framework */,
+				186CBA281CFD3C84002124BC /* libsqlite3.tbd */,
+				186CBA261CFD3C7E002124BC /* libz.tbd */,
+			);
+			name = "System Framework";
+			sourceTree = "<group>";
+		};
+		1812DBA21D00015E006E6951 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1812DBA31D00015E006E6951 /* RoundButton.h */,
+				1812DBA41D00015E006E6951 /* RoundButton.m */,
+				1812DBA51D00015E006E6951 /* VideoTableViewCell.h */,
+				1812DBA61D00015E006E6951 /* VideoTableViewCell.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		18BDF80D1CFD62D30094AB2E /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				040C211E1CFD76F3002C0A31 /* System Framework */,
+				18BDF8171CFD62D30094AB2E /* GolukSDK.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		18BDF8411CFD96FB0094AB2E /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				18BDF8421CFD96FB0094AB2E /* SVIndefiniteAnimatedView.h */,
+				18BDF8431CFD96FB0094AB2E /* SVIndefiniteAnimatedView.m */,
+				18BDF8441CFD96FB0094AB2E /* SVProgressAnimatedView.h */,
+				18BDF8451CFD96FB0094AB2E /* SVProgressAnimatedView.m */,
+				18BDF8461CFD96FB0094AB2E /* SVProgressHUD-Prefix.pch */,
+				18BDF8471CFD96FB0094AB2E /* SVProgressHUD.bundle */,
+				18BDF8481CFD96FB0094AB2E /* SVProgressHUD.h */,
+				18BDF8491CFD96FB0094AB2E /* SVProgressHUD.m */,
+				18BDF84A1CFD96FB0094AB2E /* SVRadialGradientLayer.h */,
+				18BDF84B1CFD96FB0094AB2E /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		18CCF8BD1CF7F5450092FBD4 = {
+			isa = PBXGroup;
+			children = (
+				18BDF80D1CFD62D30094AB2E /* Framework */,
+				18CCF8C81CF7F5450092FBD4 /* GolukSDKDemo */,
+				18CCF8C71CF7F5450092FBD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18CCF8C71CF7F5450092FBD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CCF8C61CF7F5450092FBD4 /* GolukSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CCF8C81CF7F5450092FBD4 /* GolukSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18CCF8CC1CF7F5450092FBD4 /* AppDelegate.h */,
+				18CCF8CD1CF7F5450092FBD4 /* AppDelegate.m */,
+				18CCF8D51CF7F5450092FBD4 /* Assets.xcassets */,
+				18BDF8381CFD80320094AB2E /* DashcamSettingsViewController.h */,
+				18BDF8391CFD80320094AB2E /* DashcamSettingsViewController.m */,
+				18B97A731CFEBA4600992E06 /* DashcamVideoDetailViewController.h */,
+				18B97A741CFEBA4600992E06 /* DashcamVideoDetailViewController.m */,
+				18B97A6D1CFEB25700992E06 /* DashcamVideoViewController.h */,
+				18B97A6E1CFEB25700992E06 /* DashcamVideoViewController.m */,
+				18CCF8DA1CF7F5450092FBD4 /* Info.plist */,
+				18CCF8D71CF7F5450092FBD4 /* LaunchScreen.storyboard */,
+				18CCF8D21CF7F5450092FBD4 /* Main.storyboard */,
+				1812DBA21D00015E006E6951 /* Other */,
+				18CCF8C91CF7F5450092FBD4 /* Supporting Files */,
+				18BDF8411CFD96FB0094AB2E /* SVProgressHUD */,
+				18CCF8CF1CF7F5450092FBD4 /* ViewController.h */,
+				18CCF8D01CF7F5450092FBD4 /* ViewController.mm */,
+			);
+			path = GolukSDKDemo;
+			sourceTree = "<group>";
+		};
+		18CCF8C91CF7F5450092FBD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18CCF8CA1CF7F5450092FBD4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CCF8C51CF7F5450092FBD4 /* GolukSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CCF8DD1CF7F5450092FBD4 /* Build configuration list for PBXNativeTarget "GolukSDKDemo" */;
+			buildPhases = (
+				18CCF8C21CF7F5450092FBD4 /* Sources */,
+				18CCF8C31CF7F5450092FBD4 /* Frameworks */,
+				18CCF8C41CF7F5450092FBD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GolukSDKDemo;
+			productName = GolukSDKDemo;
+			productReference = 18CCF8C61CF7F5450092FBD4 /* GolukSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CCF8BE1CF7F5450092FBD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Goluk;
+				TargetAttributes = {
+					18CCF8C51CF7F5450092FBD4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = TA98JZSM8D;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18CCF8C11CF7F5450092FBD4 /* Build configuration list for PBXProject "GolukSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18CCF8BD1CF7F5450092FBD4;
+			productRefGroup = 18CCF8C71CF7F5450092FBD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CCF8C51CF7F5450092FBD4 /* GolukSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CCF8C41CF7F5450092FBD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BDF84E1CFD96FB0094AB2E /* SVProgressHUD.bundle in Resources */,
+				18CCF8D91CF7F5450092FBD4 /* LaunchScreen.storyboard in Resources */,
+				18CCF8D61CF7F5450092FBD4 /* Assets.xcassets in Resources */,
+				18CCF8D41CF7F5450092FBD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CCF8C21CF7F5450092FBD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CCF8D11CF7F5450092FBD4 /* ViewController.mm in Sources */,
+				18BDF83A1CFD80320094AB2E /* DashcamSettingsViewController.m in Sources */,
+				1812DBA81D00015E006E6951 /* VideoTableViewCell.m in Sources */,
+				18BDF84D1CFD96FB0094AB2E /* SVProgressAnimatedView.m in Sources */,
+				18CCF8CE1CF7F5450092FBD4 /* AppDelegate.m in Sources */,
+				18BDF84F1CFD96FB0094AB2E /* SVProgressHUD.m in Sources */,
+				18BDF84C1CFD96FB0094AB2E /* SVIndefiniteAnimatedView.m in Sources */,
+				18BDF8501CFD96FB0094AB2E /* SVRadialGradientLayer.m in Sources */,
+				18B97A751CFEBA4600992E06 /* DashcamVideoDetailViewController.m in Sources */,
+				18B97A6F1CFEB25700992E06 /* DashcamVideoViewController.m in Sources */,
+				1812DBA71D00015E006E6951 /* RoundButton.m in Sources */,
+				18CCF8CB1CF7F5450092FBD4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18CCF8D21CF7F5450092FBD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CCF8D31CF7F5450092FBD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18CCF8D71CF7F5450092FBD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CCF8D81CF7F5450092FBD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18CCF8DB1CF7F5450092FBD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18CCF8DC1CF7F5450092FBD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CCF8DE1CF7F5450092FBD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rui Chen (NQEZR3D235)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TA98JZSM8D;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/BaiduMapAPI/Framework",
+					"$(PROJECT_DIR)/Framework/BaiduMapAPI/Framework",
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = GolukSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework/RTMPPlayer",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.develop.GoLuk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		18CCF8DF1CF7F5450092FBD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rui Chen (NQEZR3D235)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TA98JZSM8D;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/BaiduMapAPI/Framework",
+					"$(PROJECT_DIR)/Framework/BaiduMapAPI/Framework",
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = GolukSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework/RTMPPlayer",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.develop.GoLuk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CCF8C11CF7F5450092FBD4 /* Build configuration list for PBXProject "GolukSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CCF8DB1CF7F5450092FBD4 /* Debug */,
+				18CCF8DC1CF7F5450092FBD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CCF8DD1CF7F5450092FBD4 /* Build configuration list for PBXNativeTarget "GolukSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CCF8DE1CF7F5450092FBD4 /* Debug */,
+				18CCF8DF1CF7F5450092FBD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18CCF8BE1CF7F5450092FBD4 /* Project object */;
+}

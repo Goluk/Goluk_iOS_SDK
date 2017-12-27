@@ -1,0 +1,6 @@
+framework module GolukSDK {
+  umbrella header "GolukSDK.h"
+
+  export *
+  module * { export * }
+}
