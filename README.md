@@ -72,9 +72,8 @@ cmd.seriesType = GKIPCSeriesG;
 | ------------------- | ----- | ---- | ------------ |
 | GKDisconnectCommand | None  |      |              |
 
-- **<font color=red size=3>Note</font>** ：
-######<font color=black size=2>Transfer</font>`[[GKConnectCommand new] send]`<font color=black size=2>After the APP connects with the recorder, the SDK will send the notification </font><font color=red size=2>GK_IPC_CONNECTED_NOTIFICATION</font>
-######<font color=black size=2>Transfer</font>`[[GKDisconnectCommand new] send]`<font color=black size=2>After the APP disconnects from the recorder, the SDK will send the notification </font></font><font color=red size=2>GK_IPC_DISCONNECT_NOTIFICATION</font>
+- **<font color=red size=3>Note</font>** ：**<font color=black size=2>Transfer</font>**`[[GKConnectCommand new] send]`<font color=black size=2>After the APP connects with the recorder, the SDK will send the notification </font><font color=red size=2>GK_IPC_CONNECTED_NOTIFICATION</font>
+**<font color=black size=2>Transfer</font>**`[[GKDisconnectCommand new] send]`<font color=black size=2>After the APP disconnects from the recorder, the SDK will send the notification </font></font><font color=red size=2>GK_IPC_DISCONNECT_NOTIFICATION</font>
 
 
 - **ReferenceCode** ：
